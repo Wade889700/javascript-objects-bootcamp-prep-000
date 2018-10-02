@@ -1,4 +1,4 @@
-function updatePlaylist(playlist, key, value){
+function updatePlaylist(obj, key, value){
   playlist[key]=value;
   return playlist
 }
