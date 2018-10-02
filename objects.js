@@ -1,5 +1,5 @@
-function updatePlaylist(playlist, name_of_artist, title_of_song){
-  playlist.name_of_artist='title_of_song';
+function updatePlaylist(playlist, key, value){
+  playlist[key]=value;
   return playlist
 }
 
