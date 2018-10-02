@@ -4,7 +4,7 @@ function updatePlaylist(obj, key, value){
 }
 
 function removeFromPlaylist(obj, key){
- var obj1 = Object.assign({},)
+ var obj1 = Object.assign({},obj)
  delete obj.key;
  return obj
 }
